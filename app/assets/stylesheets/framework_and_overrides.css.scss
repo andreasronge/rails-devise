@@ -79,3 +79,15 @@ section {
   @extend .btn-primary;
   @extend .btn-xs;
 }
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #000;
+    color: #ffffff;
+    text-align:center;
+    margin: auto;
+}
