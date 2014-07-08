@@ -46,6 +46,9 @@ module RailsDevise
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 
+    config.neo4j.session_path = ENV["GRAPHENEDB_URL"] || 'http://localhost:7474'
+
+
     #config.neo4j.session_type = :embedded_db
     #config.neo4j.session_path = File.expand_path('neo4j-db', Rails.root)
 
