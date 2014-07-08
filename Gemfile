@@ -12,6 +12,9 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'devise'
+gem 'devise-neo4j', '~> 2.0.0.alpha.1'
+gem 'neo4j', '~> 3.0.0.alpha.7'
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
