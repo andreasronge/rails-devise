@@ -4,13 +4,14 @@ Devise.setup do |config|
   # The secret key used by Devise. Devise uses this key to generate
   # random tokens. Changing this key will render invalid all existing
   # confirmation, reset password and unlock tokens in the database.
-  # config.secret_key = 'e04ef0c4263a0bf8eeafdbbe736b3255d905335fa72275cee63548f68aa6764bc61585e182157c4f15cff1217c681ba7addc5608234781500a1827c0785fa749'
+  config.secret_key = '8120a67bc981a4bce7bd31d63c16dbd645dbdb6405829018000d55114f5f7c1dc776ca51a22a40f984bff1ae19d3120e527b5e2f2c36922baa0a45d53409c70c'
 
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class
   # with default "from" parameter.
-  config.mailer_sender = 'no-reply@' + Rails.application.secrets.domain_name
+  #config.mailer_sender = 'no-reply@' + Rails.application.secrets.domain_name
+  config.mailer_sender = 'no-reply@foo.bar.com'
 
   # Configure the class responsible to send e-mails.
   # config.mailer = 'Devise::Mailer'
